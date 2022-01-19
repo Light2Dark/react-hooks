@@ -15,8 +15,7 @@ const Home: NextPage = () => {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&display=swap" rel="stylesheet" />
       </Head>
 
-      <main>
-        <h1 className='text-3xl'>Hello World!</h1>
+      <main className='p-4'>
         <ReactHooks />
       </main>
 
