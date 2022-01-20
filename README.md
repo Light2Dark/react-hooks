@@ -1,10 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Huge thanks to [Theo](https://www.youtube.com/watch?v=PKy2lYEnhgs&ab_channel=Theo-T3Tools) and his cool team for providing a [boilerplate](https://init.tips/) for me yay! (eventhough Im not really utilizing Next here haha)
 
 ## Intro
 
 This is a react-hooks website + tailwind css combo I worked on. I did not mean this to be instructional content but if you'd like to learn about
-- ### React Hooks
-- ### Typescript & React
+- #### React Hooks
+- #### Typescript & React
 
 check this out!
 
@@ -31,3 +32,6 @@ If you wanna learn about these hooks, I've attached resources to each hook and t
 
 ### [useReducer Hook](https://dmitripavlutin.com/react-usereducer/)
 - Challenge: Build a stopwatch with "Start", "Stop" and "Reset" buttons
+
+### [useEffect Hook](https://www.youtube.com/watch?v=Yl0hbt_kK_I&t=708s&ab_channel=LogRocket)
+- Challenge: Fetch some data from some website somewhere (axios is friend) and display it. Have a button which changes the data / renews it.
