@@ -1,15 +1,8 @@
-import { useState } from "react"
+import { useState, useReducer } from "react"
+import Button from "../components/button"
 
 export default function Header() {
     const [count, setCount] = useState(0)
-
-    const increment = () => {
-        setCount(count + 1)
-    }
-
-    const reset = () => {
-        setCount(0)
-    }
 
     return(
         <div>
@@ -25,8 +18,8 @@ export default function Header() {
                     </div>
                     <div>
                         <div className="flex flex-row gap-2">
-                            <button onClick={increment} className="font-medium bg-violet-500 py-1 px-5 rounded-lg text-white hover:bg-violet-600">Counter</button>
-                            <button onClick={reset} className="font-medium bg-sky-400 py-1 px-5 rounded-lg text-white hover:bg-sky-500">Reset</button>
+                            <Button onClick = {() => setCount(count + 1)} buttonText="Counter" className="bg-violet-500 hover:bg-violet-600"/>
+                            <Button onClick={() => setCount(0)} className="bg-sky-400 hover:bg-sky-500" buttonText="Reset"/>
                         </div>
                         <p className="text-slate-500">Click the counter!</p>
                     </div>
