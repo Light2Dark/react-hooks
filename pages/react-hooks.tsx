@@ -1,6 +1,7 @@
 import { useState} from "react"
 import Button from "../components/button"
 import Reducer from "./hooks/useReducer"
+import Effect from "./hooks/useEffect"
 
 interface Props {
     content: JSX.Element;
@@ -52,6 +53,7 @@ export default function Header() {
 
             <Card content={<StateHook />} name="useState" divClass="max-w-sm" />
             <Card content={<Reducer />} name="useReducer" divClass="max-w-md" />
+            <Card content={<Effect />} name="useEffect" divClass="max-w-lg" />
         </>
     )
 }

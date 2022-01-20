@@ -23,7 +23,7 @@ const Button = ({onClick, buttonText, colour, addClass}: Props) => {
 
     return(
         <>
-            <button onClick={onClick} className={`font-medium py-1 px-5 rounded-lg text-white ${colourClass} ${addClass}`} >{buttonText}</button>
+            <button onClick={onClick} className={`font-medium py-1 px-5 rounded-lg text-white h-8 ${colourClass} ${addClass}`} >{buttonText}</button>
         </>
     )
 }
