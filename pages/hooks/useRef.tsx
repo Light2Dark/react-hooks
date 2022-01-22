@@ -5,7 +5,7 @@ const Ref = () => {
     // be as specific as possible when defining refs in ts
     const inputRef = useRef<HTMLInputElement>(null)
 
-    const [output, setOutput] = useState("")
+    const [output, setOutput] = useState("Alice Nova")
 
     const Click = () => {
         if (!inputRef.current) throw Error("divRef is not assigned");

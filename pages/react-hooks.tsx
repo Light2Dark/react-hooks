@@ -3,6 +3,7 @@ import Button from "../components/button"
 import Reducer from "./hooks/useReducer"
 import Effect from "./hooks/useEffect"
 import Ref from "./hooks/useRef"
+import Context from "./hooks/useContext"
 
 interface Props {
     content: JSX.Element;
@@ -56,6 +57,7 @@ export default function Header() {
             <Card content={<Reducer />} name="useReducer" divClass="max-w-md" />
             <Card content={<Effect />} name="useEffect" divClass="max-w-lg" />
             <Card content={<Ref />} name="useRef" divClass="max-w-md" />
+            <Card content={<Context />} name="useContext" divClass="max-w-sm" />
         </>
     )
 }

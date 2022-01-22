@@ -38,3 +38,13 @@ If you wanna learn about these hooks, I've attached resources to each hook and t
 
 ### [useRef Hook](https://www.w3schools.com/react/react_useref.asp)
 - Challenge: 1) Have a counter for the number of times you click a button OR 2) Enter a name and click a button which puts that name in another div somewhere.
+
+### [useContext Hook](https://medium.com/@jrwebdev/react-hooks-in-typescript-88fce7001d0d)
+- Challenge: Build a light/dark mode toggle using useContext to get values down various components
+
+### [useMemo Hook](https://reactjs.org/docs/hooks-reference.html#usememo)
+- useMemo Hook is to optimize performance for existing functions so I have not used it but it's very simple to learn.
+- a memoized function / calculation means that the result of function is cached so that repeated function calls are not expensive in performance
+
+### [useCallback Hook](https://reactjs.org/docs/hooks-reference.html#usecallback)
+- useCallback hooks returns a memoized callback.
