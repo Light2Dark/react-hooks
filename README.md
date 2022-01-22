@@ -9,7 +9,7 @@ This is a react-hooks website + tailwind css combo I worked on. I did not mean t
 
 check this out!
 
-Visit the website at [Electro](electro-light2dark.vercel.app)
+Visit the website at [Electro](https://electro-light2dark.vercel.app/)
 
 
 Or if you're cloning this repo:
@@ -35,3 +35,6 @@ If you wanna learn about these hooks, I've attached resources to each hook and t
 
 ### [useEffect Hook](https://www.youtube.com/watch?v=Yl0hbt_kK_I&t=708s&ab_channel=LogRocket)
 - Challenge: Fetch some data from some website somewhere (axios is friend) and display it. Have a button which changes the data / renews it.
+
+### [useRef Hook](https://www.w3schools.com/react/react_useref.asp)
+- Challenge: 1) Have a counter for the number of times you click a button OR 2) Enter a name and click a button which puts that name in another div somewhere.

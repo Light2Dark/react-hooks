@@ -2,6 +2,7 @@ import { useState} from "react"
 import Button from "../components/button"
 import Reducer from "./hooks/useReducer"
 import Effect from "./hooks/useEffect"
+import Ref from "./hooks/useRef"
 
 interface Props {
     content: JSX.Element;
@@ -49,11 +50,12 @@ export default function Header() {
 
     return(
         <>
-            <h2 className="text-center text-2xl m-2 font-bold">React Hooks</h2>
+            <h2 className="text-center text-2xl m-2 font-bold mb-6">React Hooks</h2>
 
             <Card content={<StateHook />} name="useState" divClass="max-w-sm" />
             <Card content={<Reducer />} name="useReducer" divClass="max-w-md" />
             <Card content={<Effect />} name="useEffect" divClass="max-w-lg" />
+            <Card content={<Ref />} name="useRef" divClass="max-w-md" />
         </>
     )
 }
